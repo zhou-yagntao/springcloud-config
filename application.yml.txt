@@ -1,0 +1,15 @@
+spring:
+   profiles:
+      active:
+        -dev
+----
+spring:
+     profiles: dev #开发环境
+     application：micorservice-config-com.chinaedu-dev
+
+----
+spring：
+     profiles: test  #测试环境
+     application：micorservice-config-com.chinaedu-test
+
+#保存格式必须为UTF-8
